@@ -12,3 +12,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
 }
+.addCategorybtn{
+    text-align: right;
+}
+.fullWidthbutton{
+    width:100%;
+}

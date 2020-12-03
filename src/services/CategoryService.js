@@ -4,8 +4,8 @@ const CATEGORY_API_BASE_URL = "http://127.0.0.1:8000/api";
 const CATEGORY_ADMIN_API_BASE_URL = "http://127.0.0.1:8000/api/admin";
 
 class CategoryService {
-    getCategory(){
-        return axios.get(CATEGORY_API_BASE_URL + '/getCategory');
+     getCategory(){
+        return  axios.post(CATEGORY_API_BASE_URL + '/getCategory');
     }
 
     createCategory(categoryName){

@@ -21,6 +21,9 @@ const NavbarComp = () => {
                     <li className="nav-item">
                         <NavLink className="nav-link" exact to="/Contact">Contact</NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link" exact to="/Category">Categories</NavLink>
+                    </li>
                 </ul>
             </div>
         </nav>

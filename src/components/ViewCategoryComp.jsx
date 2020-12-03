@@ -1,6 +1,6 @@
 // import react, {Component} from '../../node_modules/react'
 
-const AboutComp = () =>{
+const ViewCategoryComp = () =>{
     return(
         <div className="container">
             <h1>About us page </h1>
@@ -10,4 +10,4 @@ const AboutComp = () =>{
         
     );
 };
-export default AboutComp;
+export default ViewCategoryComp;
